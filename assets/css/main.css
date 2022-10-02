@@ -1417,6 +1417,11 @@ a, button, .item-overlay, .global-overlay, .pagination li .page-number, .scroll-
   .banner__info--inner.width-3 {
     width: 145px; }
 
+.banner__info--inner--text {
+  background: rgba(255, 255, 255, 0.5); 
+  padding: 10px;
+}
+
 .banner__title-1 {
   color: #010225;
   font-size: 30px;
