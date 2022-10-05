@@ -1423,7 +1423,7 @@ a, button, .item-overlay, .global-overlay, .pagination li .page-number, .scroll-
 }
 
 .banner__title-1 {
-  color: #010225;
+  color: #4FA1CB;
   font-size: 30px;
   margin-bottom: 10px; }
   @media (max-width: 47.94em) {
@@ -1532,7 +1532,7 @@ a, button, .item-overlay, .global-overlay, .pagination li .page-number, .scroll-
       .single-post__info p:not(:last-child) {
         margin-bottom: 25px; } }
   .single-post__info blockquote {
-    color: #191a1d;
+    color: #4FA1CB;
     font-size: 28px;
     padding-top: 19px;
     margin-bottom: 29px;
@@ -3737,7 +3737,7 @@ a, button, .item-overlay, .global-overlay, .pagination li .page-number, .scroll-
   color: #000000; }
 
 .footer-widget .widget-title, .footer-widget .taglist span, .footer-widget .taglist a, .footer-widget .taglist a:not(:last-child):after, .blog__title, .single-post__title, .form__label, .nice-select .current, .product-title, .product-price-wrapper .new-price .money, .product-price-wrapper .old-price .money, .product-summary .product-navigation a, .table tbody td.product-name h3, .table.shop_attributes th a, .table.shop_attributes td a, .tab-style-1 .nav-link, .user-dashboard-tab__head .nav-link, .widget-list li a, .shipping-calculator-wrap a {
-  color: #373737; }
+  color: #4FA1CB; }
 
 .cart-calculator__item--head, .cart-calculator__item--value, .product-summary .product-footer-meta p span, .variation-form .variation-label, .message-box p, .quantity, .quantity-label, .quantity-input, .quantity .qtybutton, .social__link, .btn-close, .comment-author a, .comment-content p, .nice-select:after, .cart-form__input, .cart-form__btn, .mini-cart, .mini-cart__product-remove, .mini-cart__product-title, .product-summary .product-title a, .product-summary .product-price-wrapper span, .variation-form .product-size-variations .product-size-variation-btn, .variation-form .reset_variations, .table tbody td.product-name h3 a, .table.compare-table tbody th, .group-product-table tbody td.product-name h3, .group-product-table tbody td.product-price .product-price-wrapper > span.product-price-old, .widget-list li a strong, .tagcloud a, .payment-label, .product-reviews .review__author {
   color: #292323; }
