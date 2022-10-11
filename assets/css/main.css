@@ -4079,3 +4079,43 @@ a, button, .item-overlay, .global-overlay, .pagination li .page-number, .scroll-
 @media (max-width: 47.94em) {
   .mb-sm--7pt6 {
     margin-bottom: 7.6rem; } }
+
+/* Facebook chat */
+a#msnnr_btn_anc {
+  bottom: 90px;
+  background-color: rgba(255, 255, 255, 0);
+  position: fixed;
+  right: 50px;
+  z-index: 999;
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+div#messenger_button {
+  position: relative;
+  float: left;
+  
+  color: #fff;
+  font-family: arial;
+  border-radius: 3px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.messenger-column {
+  float: left;
+  padding: 5px;
+}
+
+.messenger-column.btn-icon>#msngr_btn_icon {
+  float: left;
+  width: 50px;
+}
+
+.messenger-column.btn-label {
+  padding: 10px;
+  padding-right: 5px;
+}
