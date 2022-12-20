@@ -644,14 +644,26 @@
 		$('.ft-preloader').removeClass("active");
 	});
 
-    $(window).on('resize', function(){
-    	state.window_width = $(window).width();
-		if(state.window_width  > 991){ 
+	$(window).on('resize', function () {
+		state.window_width = $(window).width();
+		if (state.window_width > 991) {
 			state.stickyHeader();
 		}
-    });
+	});
 
-
+	// product pricing matrix
+	$('.product-size-variation-btn').on('click', function (e) {
+		var type = $(this).data('type'), value = $(this).data('value');
+		// clear previous type selected
+		$(`.product-size-variation-btn[data-type="${type}"]`).removeClass('selected');
+		$(this).addClass('selected');
+		var other = $(`.product-size-variation-btn.selected[data-type!="${type}"]`).first().data('value');
+		var lookup = `${other}-${value}`;
+		if(type == 'size') {
+			lookup = `${value}-${other}`;
+		}
+		$('#product-price').text(priceMatrix[lookup]);
+	});
 
 
 })(jQuery);
