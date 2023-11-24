@@ -265,31 +265,27 @@
                   <h3 class="product-title mb--20">Nệm Êm Tiết Kiệm</h3>
                   <p class="product-short-description mb--20">Sản phẩm của công ty TNHH MTV TM DVL. Mã sản phẩm: VN0808R01. Năm sản xuất: 2022. Độ dày: 15cm.</p>
                   <div class="product-price-wrapper mb--25">
-                    <span class="money">6.779.000đ</span>
-                    <span class="price-separator">-</span>
-                    <span class="money">7.399.000đ</span>
-                    <span class="price-separator">-</span>
-                    <span class="money">8.499.000đ</span>
+                    <span id="product-price" class="money">6.779.000đ</span>
                   </div>
                   <form action="#" class="variation-form mb--20">
                     <div class="product-size-variations d-flex align-items-center mb--15">
                       <p class="variation-label">Cỡ:</p>
                       <div class="product-size-variation variation-wrapper">
                         <div class="variation">
-                          <a class="product-size-variation-btn" data-bs-toggle="tooltip" data-bs-placement="top"
-                            title="1.6">
+                          <a class="product-size-variation-btn selected" data-bs-toggle="tooltip" data-bs-placement="top" data-type="size"
+                            data-value="1.6" title="1.6">
                             <span class="product-size-variation-label">1M6</span>
                           </a>
                         </div>
                         <div class="variation">
-                          <a class="product-size-variation-btn" data-bs-toggle="tooltip" data-bs-placement="top"
-                            title="1.8">
+                          <a class="product-size-variation-btn" data-bs-toggle="tooltip" data-bs-placement="top" data-type="size"
+                            data-value="1.8" title="1.8">
                             <span class="product-size-variation-label">1M8</span>
                           </a>
                         </div>
                         <div class="variation">
-                          <a class="product-size-variation-btn" data-bs-toggle="tooltip" data-bs-placement="top"
-                            title="2.0">
+                          <a class="product-size-variation-btn" data-bs-toggle="tooltip" data-bs-placement="top" data-type="size"
+                            data-value="2.0" title="2.0">
                             <span class="product-size-variation-label">2M</span>
                           </a>
                         </div>
@@ -299,7 +295,8 @@
                       <p class="variation-label">Độ dày:</p>
                       <div class="product-size-variation variation-wrapper">
                         <div class="variation">
-                          <a class="product-size-variation-btn" data-bs-toggle="tooltip" data-bs-placement="top" title="15">
+                          <a class="product-size-variation-btn selected" data-bs-toggle="tooltip" data-bs-placement="top" data-type="thickness"
+                            data-value="15" title="15">
                             <span class="product-size-variation-label">15cm</span>
                           </a>
                         </div>
@@ -587,6 +584,13 @@
 
     <!-- jQuery JS -->
     <script src="assets/js/vendor.js"></script>
+    <script>
+      var priceMatrix = {
+        "1.6-15": "6.779.000đ",
+        "1.8-15": "7.399.000đ",
+        "2.0-15": "8.499.000đ",
+      };
+    </script>
 
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
